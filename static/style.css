@@ -1,0 +1,84 @@
+/* static/style.css */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('https://i.pinimg.com/736x/6c/bb/36/6cbb36a34afe45944dc1280aed5f9c0c.jpg');
+    background-size: cover;              /* Cover the entire page */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-position: center center;  /* Center the image */
+    background-attachment: fixed;        /* Stay fixed during scroll */
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-shadow: 4px 4px 6px rgb(220, 70, 244);
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: #d969ce;
+    text-shadow: 2px 2px 6px rgb(164, 164, 164);
+    margin-bottom: 0.2rem; /* Bring subtitle closer */
+}
+
+.head{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+    text-shadow: 2px 2px 6px rgb(155, 154, 154);
+    color: #d969ce;
+}
+form {
+    margin-bottom: 30px;
+    z-index: 1;
+    color: #d969ce;
+
+}
+
+input[type="number"] {
+    padding: 12px;
+    font-size: 10px;
+    border: 2px solid #ff86fb;
+    border-radius: 10px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff5edc;
+    color: rgb(219, 96, 96);
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ce75ca;
+}
+
+.result {
+    margin-top: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 10px #d969ce;
+}
+
+.result h2 {
+    margin-bottom: 20px;
+    color: #d969ce;
+    text-shadow: 2px 2px 6px rgb(155, 154, 154);
+
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(255, 116, 236, 0.63);
+}
